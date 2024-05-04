@@ -66,4 +66,4 @@ def check_sudoku_board(array):
 	"""Final function to ensure that all the three conditions, row, column and three by three grid are met"""
 	return check_row(array) and check_column(array) and check_three_by_three(array)
 
-print(check_sudoku_board(board))
+print(check_sudoku_board(a_board))
