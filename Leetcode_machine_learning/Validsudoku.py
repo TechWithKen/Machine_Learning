@@ -66,4 +66,5 @@ def check_sudoku_board(array):
 	"""Final function to ensure that all the three conditions, row, column and three by three grid are met"""
 	return check_row(array) and check_column(array) and check_three_by_three(array)
 
+a_board = input("Please Enter a Valid Sudoku board: ")
 print(check_sudoku_board(a_board))
